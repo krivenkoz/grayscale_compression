@@ -19,7 +19,7 @@ It's NOT necessary for BPG nor JPEG coders. Notebook consists necessary part for
 ---
 ### Example
 ```bash
-imageArray, cimageArray, cr = get_compressed_image_II(path_to_root_folder, 'goldhill.bmp', 'JPEG', '7')
+imageArray, cimageArray, cr = get_compressed_image_II(path_to_root_folder, 'Images', 'goldhill.bmp', 'JPEG', '7')
 ```
 ```bash
 local_df = get_metrics('goldhill.bmp', 'JPEG', imageArray, cimageArray, cr, '7', original_image=False)
